@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
@@ -21,7 +20,10 @@ function Login() {
     };
 
     try {
-      const res = await axios.post("http://localhost:4001/user/login", userInfo);
+      const res = await axios.post(
+        "http://localhost:4001/user/login",
+        userInfo
+      );
 
       if (res.data) {
         toast.success("Logged in Successfully");
@@ -43,9 +45,9 @@ function Login() {
   };
 
   return (
-    <div>
-      <dialog id="my_modal_3" className="modal">
-        <div className="modal-box">
+    <div className="">
+      <dialog id="my_modal_3" className="modal text-black">
+        <div className="modal-box" style={{ backgroundColor: "#F8F4FF" }}>
           <form onSubmit={handleSubmit(onSubmit)}>
             <Link
               to="/"
@@ -101,6 +103,7 @@ function Login() {
                 <Link
                   to="/signUp"
                   className="underline text-blue-500 cursor-pointer"
+                  onClick={() => document.getElementById("my_modal_3").close()}
                 >
                   Signup
                 </Link>

@@ -18,17 +18,17 @@ function HomePage() {
             <Link to="/">
               <div className="flex items-center gap-3 m-2  hover:bg-gray-800 border border-red-500 cursor-pointer ">
                 <i
-                  className="fa-solid fa-gift"
+                  className="fa-solid fa-gift "
                   style={{ color: "#FFD43B" }}
                 ></i>
-                <p>Lifetime Free Access</p>
+                <p className="text-black">Lifetime Free Access</p>
               </div>
             </Link>
 
             <Link to="/">
-              <div className="flex items-center gap-3 px-4 m-2 border  hover:bg-gray-800 cursor-pointer ">
+              <div className="flex items-center gap-3 px-4 m-2 border border-black hover:bg-gray-800 cursor-pointer ">
                 <i class="fa-solid fa-phone"></i>
-                <p>Support</p>
+                <p className="text-black">Support</p>
               </div>
             </Link>
           </div>

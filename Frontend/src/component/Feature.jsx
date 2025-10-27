@@ -29,17 +29,17 @@ function Feature() {
   ];
   return (
     <>
-      <div >
-        <div className="w-full h-[36px] mt-[20px] mb-[20px] flex items-center" >
+      <div className="" style={{ backgroundColor: "#F8F4FF" }} >
+        <div className="w-full h-[36px]  mb-[20px] flex items-center" >
           <h2 className="text-4xl text-black">
             Get started with ready-made templates
           </h2>
         </div>
 
         {/* Feature cards wrapper */}
-        <div className="flex flex-wrap justify-between  w-[90%] mx-auto cursor-pointer">
+        <div className="flex flex-wrap justify-between  w-[90%] mx-auto cursor-pointer" >
           {/* Feature Card 1 */}
-          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200">
+          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200 text-black ">
             <div className=" flex  items-center px-2 w-full h-1/2">
               <FontAwesomeIcon icon={faIndianRupeeSign} />
               <div>Finance</div>
@@ -48,7 +48,7 @@ function Feature() {
           </div>
 
           {/* Feature Card 2 */}
-          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200 ">
+          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200  text-black ">
             <div className=" flex  items-center px-2 w-full h-1/2">
               <FontAwesomeIcon icon={faBullhorn} />
               <div>Marketing</div>
@@ -59,7 +59,7 @@ function Feature() {
           </div>
 
           {/* Feature Card 3 */}
-          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200">
+          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200 text-black ">
             <div className=" flex  items-center px-2 w-full h-1/2">
               <FontAwesomeIcon icon={faHeadphones} />
               <div>Support</div>
@@ -70,7 +70,7 @@ function Feature() {
           </div>
 
           {/* Feature Card 4 */}
-          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200">
+          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200 text-black ">
             <div className=" flex  items-center px-2 w-full h-1/2">
               <FontAwesomeIcon icon={faPeopleRoof} />
               <div>Project Management</div>
@@ -79,7 +79,7 @@ function Feature() {
           </div>
 
           {/* Feature Card 5 */}
-          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200">
+          <div className="flex flex-col w-[20%] h-[90px] border-2 border-gray-200 text-black ">
             <div className=" flex  items-center px-2 w-full h-1/2">
               <FontAwesomeIcon icon={faUserGroup} />
               <div>HR</div>

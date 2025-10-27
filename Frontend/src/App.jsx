@@ -12,12 +12,14 @@ import AiAgentsPage from "./aiAgentsPage/AiAgentsPage";
 import { Routes, Route, Link } from "react-router-dom";
 
 import { Toaster } from "react-hot-toast";
+import Login from "./component/Login";
 
 
 function App() {
   return (
     <>
-             <Toaster position="top-center" reverseOrder={false} />
+      <Toaster position="top-center" reverseOrder={false} />
+      <Login />
 
       <Routes>
         <Route path="/" element={<Home />} />
