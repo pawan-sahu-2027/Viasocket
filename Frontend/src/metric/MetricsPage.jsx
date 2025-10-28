@@ -11,7 +11,7 @@ function MetricsPage() {
         </div>
 
         {/* Right Content Area */}
-        <div className="flex-1 p-5 bg-[#F4F3F1] overflow-hidden">
+        <div className="flex-1 p-5 bg-[#F4F3F1] overflow-hidden text-black">
           <div className="w-[95%]  h-[133px] bg-white m-10">
             <h6 className="text-2xl m-3">Notification Preferences</h6>
 

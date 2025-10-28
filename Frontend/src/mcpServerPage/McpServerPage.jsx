@@ -11,12 +11,12 @@ function McpServerPage() {
 
         {/* right side? */}
 
-        <div className="w-full min-h-screen flex flex-col items-center bg-[#F4F3F1]">
+        <div className="w-full min-h-screen flex flex-col items-center bg-[#F4F3F1] text-black">
           {/* Title */}
-          <h1 className="text-3xl  text-white mt-10">Viasocket MCP</h1>
+          <h1 className="text-3xl  text-black mt-10 ">Viasocket MCP</h1>
 
           {/* Paragraph */}
-          <p className="text-white text-center max-w-2xl mt-4">
+          <p className="text-black text-center max-w-2xl mt-4">
             Easily connect your AI to thousands of apps with just a URL. No
             complex API integrations required.
           </p>
